@@ -1,0 +1,18 @@
+---
+:source:
+  :path: test
+  :file: test_expression.c
+:successes: []
+:failures:
+- :test: test_computeExpression_given_256_plus_38_should_return_5
+  :line: 23
+  :message: Expected 294 Was 0
+:ignores: []
+:counts:
+  :total: 1
+  :passed: 0
+  :failed: 1
+  :ignored: 0
+:stdout:
+- 'expr:  256 + 38 '
+- the value of the integer token is 256
